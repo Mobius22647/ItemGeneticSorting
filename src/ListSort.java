@@ -1,24 +1,22 @@
-import java.util.ArrayList;
 import java.util.List;
 
 public class ListSort {
-    private ArrayList<List<List<String>>> generation;
+    private List<List<String>> generation; // Just one generation of 10 items
     private Double Value;
     private Double Weight;
 
-    // Constructor
-    public ListSort(ArrayList<List<List<String>>> generation, Double Value, Double Weight) {
+    public ListSort(List<List<String>> generation, Double Value, Double Weight) {
         this.generation = generation;
         this.Value = Value;
         this.Weight = Weight;
     }
 
     // Getter and Setter for generation
-    public ArrayList<List<List<String>>> getGeneration() {
+    public List<List<String>> getGeneration() {
         return generation;
     }
 
-    public void setGeneration(ArrayList<List<List<String>>> generation) {
+    public void setGeneration(List<List<String>> generation) {
         this.generation = generation;
     }
 
